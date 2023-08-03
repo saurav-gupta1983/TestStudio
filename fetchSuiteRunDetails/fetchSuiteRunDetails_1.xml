@@ -1,0 +1,29 @@
+<TestCase>
+  <ScriptData>
+    <TestCaseID>TC_149542</TestCaseID>
+    <TestCaseScenario>This Test Case Checks the fetchSuiteRunDetails Functionality</TestCaseScenario>
+    <username>tsuser1</username>
+    <password>Te5t$tud</password>
+    <sessionID></sessionID>
+    <Environment>
+      <amkumarg>
+        <tsr_id>34624</tsr_id>
+      </amkumarg>
+      <qe>
+        <tsr_id>34624</tsr_id>
+      </qe>
+      <qa>
+        <tsr_id>26723</tsr_id>
+      </qa>
+      <stage>
+        <tsr_id>47293</tsr_id>
+      </stage>
+      <prod>
+        <tsr_id>26723</tsr_id>
+      </prod>
+    </Environment>
+    <treeDepth>-1</treeDepth>
+    <fetchConfig>TRUE</fetchConfig>
+    <ExpectedResult>Pass</ExpectedResult>
+  </ScriptData>
+</TestCase>

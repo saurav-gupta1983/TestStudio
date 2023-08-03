@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="logininfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="uiuserinfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="firstname" type="xs:string" />
+              <xs:element name="lastname" type="xs:string" />
+              <xs:element name="Ldapid" type="xs:string" />
+              <xs:element name="userType"/>
+              <xs:element name="id"/>
+              <xs:element name="isPreferenceSet" type="xs:boolean" />
+              <xs:element name="callbackurl" />
+              <xs:element name="copyOwnerInfoFromTC" type="xs:boolean" minOccurs="0"/>
+              <xs:element name="copyStepsInfoFromTC" type="xs:boolean" minOccurs="0"/>
+              <xs:element name="copyFileInfoFromTC" type="xs:boolean" minOccurs="0"/>
+              <xs:element name="copyOwnerInfoFromParent" type="xs:boolean" minOccurs="0"/>
+              <xs:element name="saveTestSuiteRunConfig" type="xs:boolean" minOccurs="0"/>
+              <xs:element name="allowDuplicateInSuites" type="xs:boolean" minOccurs="0"/>
+              <xs:element name="copyAutomationDataFromTC" type="xs:boolean" minOccurs="0"/>
+              <xs:element name="copyExecutionModeFromTC" type="xs:boolean" minOccurs="0"/>
+              <xs:element name="products">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="idnameobject" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="id"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="roles" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sessionid" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,10 @@
+<TestCase>
+  <ScriptData>
+    <TestCaseID>TC_74680</TestCaseID>
+    <TestCaseScenario>This Test Case Checks the sessionDetails Functionality</TestCaseScenario>
+    <username>tsuser1</username>
+    <password>Te5t$tud</password>
+    <sessionID></sessionID>
+    <ExpectedResult>Pass</ExpectedResult>
+  </ScriptData>
+</TestCase>

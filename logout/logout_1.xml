@@ -1,0 +1,10 @@
+<TestCase>
+  <ScriptData>
+    <TestCaseID>TC_74662</TestCaseID>
+    <TestCaseScenario>This Test Case Checks the logout Functionality - valid session ID</TestCaseScenario>
+    <username>tsuser1</username>
+    <password>Te5t$tud</password>
+    <sessionID></sessionID>
+    <ExpectedResult>Pass</ExpectedResult>
+  </ScriptData>
+</TestCase>

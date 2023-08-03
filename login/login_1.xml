@@ -1,0 +1,9 @@
+<TestCase>
+  <ScriptData>
+    <TestCaseID>TC_74661</TestCaseID>
+    <TestCaseScenario>This Test Case Checks the login Functionality - valid credentials</TestCaseScenario>
+    <username>tsuser1</username>
+    <password>Te5t$tud</password>
+    <ExpectedResult>Pass</ExpectedResult>
+  </ScriptData>
+</TestCase>

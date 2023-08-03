@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sessionDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sessionid" type="xs:integer" />
+        <xs:element name="isactive" type="xs:boolean" />
+        <xs:element name="user" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
